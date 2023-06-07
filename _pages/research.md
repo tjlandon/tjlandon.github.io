@@ -1,16 +1,15 @@
 ---
-layout: archive
-title: "Research"
 permalink: /research/
 author_profile: true
+redirect_from:
+  - /research
+  - /research.html
 ---
-
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## Works in progress 
+[**Schedule-Driven Productivity: Evidence from Non-Traditional School Calendars**](/files/schoolSchedules.pdf) with [Nolan G. Pope](http://www.econweb.umd.edu/~pope/)  
+Under review
+
+
