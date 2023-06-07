@@ -11,4 +11,4 @@ I am a Ph.D. Candidate in Economics at the University of Maryland. My research l
 
 [Curriculum vitae](https://github.com/academicpages/academicpages.github.io)
 
-Email: tjlandon@umd.edu. 
+Email: tjlandon@umd.edu
