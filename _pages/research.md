@@ -17,7 +17,7 @@ Under review
 
 
 ## Works in progress
-**Hurdles to Reentry: The Impact of Labor and Housing Market Barries on Recidivism**
+**Hurdles to Reentry: The Impact of Labor and Housing Market Barriers on Recidivism**
 
 **To Have and to Hold and to Share a Home: Does the Price of Housing Deter Marriage?** with [Lisa J. Dettling](https://sites.google.com/site/dettlinglisa) and [Melissa S. Kearney](http://econweb.umd.edu/~kearney/melissa_website/index.html)
 
