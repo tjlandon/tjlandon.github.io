@@ -9,6 +9,6 @@ redirect_from:
 ---
 I am a Ph.D. Candidate in Economics at the University of Maryland. My research lies at the intersection of public and labor economics and focuses on understanding the influence of economic conditions and policy decisions on individual decision-making, particularly among marginalized groups. The core areas of my work encompass crime, marriage, and education. My recent research has examined the impact of housing prices during early adulthood on family formation decisions, as well as analyzing how housing and labor market conditions at the time of prison release affect rates of criminal recidivism.
 
-[Curriculum vitae](https://github.com/tjlandon/tjlandon.github.io/blob/25ab2802aef1cc3e12494193bf73829c934fc05f/files/CV.pdf)
+[Curriculum vitae](https://tjlandon.github.io/files/CV.pdf))
 
 Email: tjlandon@umd.edu
