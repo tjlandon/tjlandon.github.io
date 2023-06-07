@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Taylor J. Landon"
-  avatar           : "images/profile.png"
+  avatar           : "profile.png"
   bio              : "Ph.D. Candidate at the University of Maryland"
   location         : "College Park, MD"
   employer         :
