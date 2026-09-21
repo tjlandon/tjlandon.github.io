@@ -1,0 +1,158 @@
+/* ===== Taylor Landon — academic site stylesheet ===== */
+
+:root {
+  --ink: #1f2933;
+  --ink-soft: #52606d;
+  --accent: #002e5d;        /* BYU navy */
+  --accent-soft: #edf2f7;
+  --link: #0b5394;
+  --rule: #d9e2ec;
+  --bg: #ffffff;
+  --max-width: 860px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.65;
+  font-size: 17px;
+}
+
+/* ---- Header / navigation ---- */
+header {
+  background: var(--accent);
+  padding: 0 16px;
+}
+
+.header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 18px 0 14px;
+}
+
+.site-title {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+
+nav a {
+  color: #cfe0f3;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.92rem;
+  padding: 4px 0;
+}
+
+nav a:hover { color: #fff; text-decoration: underline; }
+nav a.active { color: #fff; border-bottom: 2px solid #fff; }
+
+/* ---- Layout ---- */
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 36px 16px 64px;
+}
+
+h1 { font-size: 1.6rem; margin: 0 0 6px; color: var(--accent); }
+h2 {
+  font-size: 1.15rem;
+  color: var(--accent);
+  margin: 2.2em 0 0.7em;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--rule);
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+h2:first-of-type { margin-top: 1em; }
+
+a { color: var(--link); }
+
+/* ---- Home page ---- */
+.profile {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile img {
+  width: 220px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.profile-text { flex: 1; min-width: 260px; }
+
+.subtitle {
+  color: var(--ink-soft);
+  font-style: italic;
+  margin: 0 0 1.2em;
+}
+
+.contact {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  padding: 14px 20px;
+  margin-top: 1.6em;
+  font-size: 0.95rem;
+}
+.contact p { margin: 6px 0; }
+.contact .label {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  display: block;
+}
+
+.fields { margin-top: 1.4em; font-size: 0.98rem; }
+.fields p { margin: 4px 0; }
+
+/* ---- Research page ---- */
+.paper { margin-bottom: 1.8em; }
+.paper .title { font-weight: bold; }
+.paper .meta { color: var(--ink-soft); font-size: 0.95rem; margin: 2px 0 0; }
+.paper p { margin: 2px 0; }
+
+/* ---- Teaching / CV ---- */
+ul.plain { padding-left: 1.2em; }
+ul.plain li { margin-bottom: 8px; }
+
+.cv-frame {
+  width: 100%;
+  height: 900px;
+  border: 1px solid var(--rule);
+  margin-top: 1em;
+}
+
+/* ---- Footer ---- */
+footer {
+  border-top: 1px solid var(--rule);
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 18px 16px 30px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 600px) {
+  .profile { flex-direction: column; }
+  .profile img { width: 100%; max-width: 280px; }
+  .cv-frame { height: 600px; }
+}
