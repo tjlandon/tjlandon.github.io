@@ -42,3 +42,17 @@ roughly 700px wide first so the page stays fast.
 
 **When you add or remove a page:** add or remove its entry in
 `sitemap.xml` so search engines stay in sync.
+
+## Link convention
+
+Links that leave the site — papers, the DOI, the CV PDF — open in a new
+tab so visitors keep their place. When adding one, copy this pattern:
+
+    <a href="https://example.com/paper.pdf" target="_blank" rel="noopener">Title</a>
+
+`rel="noopener"` is a security measure: without it the opened page can
+reach back into this one through `window.opener`.
+
+Links between this site's own pages (Home, Research) and the `mailto:`
+address deliberately do NOT get `target="_blank"` — new tabs for your own
+pages just pile up, and a new tab for an email link opens an empty one.
