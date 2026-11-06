@@ -25,8 +25,12 @@ icon (or "Upload files" in the `files` folder), and commit.
 Do not rename the file to include a date — the URL would change and old
 links would break.
 
-**Papers:** those still link to Dropbox and Google Drive share links. To
-update one, overwrite the PDF in Dropbox with the new version (same
+**Papers hosted here:** `files/Landon_AttorneyPay.pdf` (the defense
+attorney pay paper) lives in this repo. Update it the same way as the CV:
+replace the file, keeping the same filename.
+
+**Other papers:** those still link to Dropbox and Google Drive share links.
+To update one, overwrite the PDF in Dropbox with the new version (same
 filename, via "Replace") — the share link stays the same and the website
 updates automatically, with no GitHub steps.
 
